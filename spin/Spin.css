@@ -1,0 +1,5 @@
+.loading-box{position: fixed; left: 0; top: 0; display:table; width:100%; height:100%; padding-top: 56px; box-sizing: border-box; text-align:center}
+.loading-box p{display:table-cell; vertical-align:middle; color:#757575; font-size:12px; line-height:20px; font-family:'NanumBarunGothic-Light';}
+.loading-box img.loading{margin-top:25px}
+
+img.loading{height:45px; vertical-align: top; animation:moreLoad 1.8s infinite;-webkit-animation:moreLoad 1.8s infinite;-ms-animation:moreLoad 1.8s infinite;animation-timing-function:linear;}
